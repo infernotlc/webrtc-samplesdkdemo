@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MobileSDKDemoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth">Auth</string>
+    <string name="version">Version: </string>
+    <string name="account">Account</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="authType">Auth Type</string>
+    <string name="useTurn">Use Turn</string>
+    <string name="enableTCPConnection">TCP Connection Keep-Alive</string>
+
+    <string name="app">APP</string>
+    <string name="server">SERVER</string>
+    <string name="auto">AUTO</string>
+    <string name="restIP">REST IP</string>
+    <string name="restPort">REST Port</string>
+    <string name="socketIP">SOCKET IP</string>
+    <string name="socketPort">SOCKET Port</string>
+    <string name="iceTimeout">ICE Timeout</string>
+    <string name="realmParameter">Realm Parameter</string>
+    <string name="login">Logın</string>
+    <string name="logout">Logout</string>
+    <string name="webSocketStatus">Web Socket </string>
+    <string name="registrationStatus">Registration </string>
+    <string name="serverUrl">Server URL </string>
+    <string name="caller">Caller </string>
+    <string name="selectAddressToCall">Select Address To Call</string>
+    <string name="audioOnly">AUDIO</string>
+    <string name="audioAndVideo">AUDIO + VIDEO</string>
+    <!-- Preference Titles -->
+    <string name="application">Application</string>
+    <string name="preferences">Preferences</string>
+    <string name="orientation">Orientation</string>
+    <string name="NA">N/A</string>
+    <string name="device">DEVICE</string>
+    <string name="statusBar">STATUSBAR</string>
+    <string name="enableTrickleICE">Enable Trickle ICE</string>
+    <string name="sync_header">Sync</string>
+    <string name="ringingFeedbackOption">Ringing Feedback Option</string>
+    <string name="preferredCodecs">Preferred Codecs</string>
+    <string name="audioCodecs">Audio Codecs</string>
+    <string name="videoCodecs">Video Codecs</string>
+    <string name="pushSubscribe">Push Subscribe</string>
+</resources>

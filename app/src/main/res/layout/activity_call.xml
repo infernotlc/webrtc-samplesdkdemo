@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.genband.mobile.core.webrtc.view.VideoView
+        android:id="@+id/remoteVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <com.genband.mobile.core.webrtc.view.VideoView
+        android:id="@+id/localVideoView"
+        android:layout_width="131dp"
+        android:layout_height="183dp"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="304dp"
+        app:layout_constraintBottom_toTopOf="@+id/actionsLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/actionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+        <ImageButton
+            android:id="@+id/actionButton"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/actionsLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/arrow_up"
+            android:layout_gravity="center">
+
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/switchCameraBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/flip_camera" />
+
+            <ImageButton
+                android:id="@+id/muteVideoButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/video_mute" />
+
+            <ImageButton
+                android:id="@+id/muteButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/mute" />
+
+            <ImageButton
+                android:id="@+id/stopCallButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/oval_shape_red"
+                android:src="@drawable/call_end" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp" />
+
+        <LinearLayout
+            android:id="@+id/rootLayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageButton
+                android:id="@+id/switchViewsBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/switch_views" />
+
+            <ImageButton
+                android:id="@+id/takeSnapshotBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/screenshot" />
+
+            <ImageButton
+                android:id="@+id/shareScreenBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/screen_share" />
+
+            <ImageButton
+                android:id="@+id/holdBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/oval_shape"
+                android:src="@drawable/hold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

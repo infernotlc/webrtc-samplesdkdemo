@@ -1,0 +1,39 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="ringing_feedback_titles">
+        <item>App</item>
+        <item>Server</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="orientation_titles">
+        <item>N/A</item>
+        <item>Device</item>
+        <item>Statusbar</item>
+    </string-array>
+
+    <string-array name="pref_log_level_values">
+        <item>TRACE_WEBRTC</item>
+        <item>TRACE</item>
+        <item>INFO</item>
+        <item>WARNING</item>
+        <item>ERROR</item>
+    </string-array>
+
+    <string-array name="pref_audio_codec_titles">
+        <item>OPUS</item>
+        <item>PCMA</item>
+        <item>PCMU</item>
+        <item>G722</item>
+        <item>ILBC</item>
+        <item>ISAC</item>
+    </string-array>
+
+    <string-array name="pref_video_codec_values">
+        <item>VP8</item>
+        <item>VP9</item>
+        <item>H264</item>
+    </string-array>
+
+
+</resources>

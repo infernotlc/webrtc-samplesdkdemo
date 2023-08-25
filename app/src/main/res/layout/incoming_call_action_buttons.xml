@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/incomingcallAcceptWithVideoButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:background="@null"
+        android:text="Video"
+        android:src="@drawable/call"/>
+
+    <ImageButton
+        android:id="@+id/incomingcallAcceptOnlyAudioButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Audio"
+        android:src="@drawable/call"/>
+
+    <ImageButton
+        android:id="@+id/incomingcallRejectButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Reject"
+        android:src="@drawable/call"/>
+
+    <ImageButton
+        android:id="@+id/incomingcallIgnoreButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Ignore"
+        android:src="@drawable/call"/>
+
+    <ImageButton
+        android:id="@+id/incomingcallForwardButton"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Forward"
+        android:src="@drawable/call"/>
+</LinearLayout>
